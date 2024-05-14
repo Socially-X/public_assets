@@ -1,6 +1,6 @@
 ## App Version 1.0.0 Release Notes:
 
-1. **Introducing a compelling Market Network for Swadeshi products.
+1. Introducing a compelling Market Network for Swadeshi products.
 
 ## App Version 1.0.2 Release Notes:
 
