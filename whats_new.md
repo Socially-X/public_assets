@@ -1,9 +1,9 @@
 ## App Version 1.0.0 Release Notes:
 
-### Swadesic Preview Launch
-- Introducing a compelling Market Network for Swadeshi products.
+1. **Introducing a compelling Market Network for Swadeshi products.
 
-### Improvements:
+## App Version 1.0.2 Release Notes:
+
 1. **Comment Replies Viewing:** Improved viewing of comment replies on post pages.
 2. **Character Limits:** Increased character limits for various fields.
 3. **Streamlined Transition:** Streamlined transition after hitting 'Go live now.'
