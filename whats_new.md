@@ -1,6 +1,15 @@
-## App Version 1.0.0 Release Notes:
+## App Version 1.1.0 Release Notes:
 
-1. Introducing a compelling Market Network for Swadeshi products.
+1. **Quick Access for Sellers:** Add posts and product additions right from the navigation bar.
+2. **Public Access to Visitors:** Discover and share products (sellers) without the need to sign up.
+3. **Better Commenting:** Enhanced commenting features for improved engagement.
+4. **Email Sign-In Added:** Secure your account with an additional sign-in option.
+5. **Restricted Access for Guests:** Enjoy a safer app environment with restricted features for non-registered users.
+6. **Forced Updates:** Ensure your app runs smoothly and stays secure with prompt updates.
+
+## App Version 1.0.2 Release Notes:
+
+1. Easy navigation to the parent content and seamless app update notification.
 
 ## App Version 1.0.1 Release Notes:
 
@@ -13,18 +22,13 @@
 7. **Share Card Update:** Updated share card text and removed reported items from support list.
 8. **Animation Enhancement:** Enhanced transition animation and resolved duplication of post content.
 
-## App Version 1.0.2 Release Notes:
+## App Version 1.0.0 Release Notes:
 
-1. Easy navigation to the parent content and seamless app update notification.
+1. Introducing a compelling Market Network for Swadeshi products.
 
-## App Version 1.1.0 Release Notes:
 
-1. **Quick Access for Sellers:** Add posts and product additions right from the navigation bar.
-2. **Public Access to Visitors:** Discover and share products (sellers) without the need to sign up.
-3. **Better Commenting:** Enhanced commenting features for improved engagement.
-4. **Email Sign-In Added:** Secure your account with an additional sign-in option.
-5. **Restricted Access for Guests:** Enjoy a safer app environment with restricted features for non-registered users.
-6. **Forced Updates:** Ensure your app runs smoothly and stays secure with prompt updates.
+
+
 
 
 
