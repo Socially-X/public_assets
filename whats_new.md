@@ -1,13 +1,13 @@
 ## App Version 1.2.0 Release Notes:
 
    **Security & User Experience Improvements:**
-   - **Enhanced Onboarding:** Easier username creation, profile picture upload, and role selection.
-   - **Better Security:** Encrypted APIs for safer data.
-   - **Maintenance Mode:** Clear notifications during maintenance.
-   - **Smoother Navigation:** Improved banner interaction and error messages.
-   - **Visual Tweaks:** Easier-to-see post likes and comment counts.
-   - **Comments & Replies:** Better visibility.
-   - **Store Interaction:** Clearer messages for store metrics.
+1. **Enhanced Onboarding:** Easier username creation, profile picture upload, and role selection.
+2. **Better Security:** Encrypted APIs for safer data.
+3. **Maintenance Mode:** Clear notifications during maintenance.
+4. **Smoother Navigation:** Improved banner interaction and error messages.
+5. **Visual Tweaks:** Easier-to-see post likes and comment counts.
+6. **Comments & Replies:** Better visibility.
+7. **Store Interaction:** Clearer messages for store metrics.
 
 ## App Version 1.1.0 Release Notes:
 
