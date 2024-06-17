@@ -1,5 +1,3 @@
-Sure! Here's the updated version with the additional release notes for App Version 1.2.0:
-
 ## App Version 1.2.0 Release Notes:
 
    **Security & User Experience Improvements:**
