@@ -1,3 +1,16 @@
+Sure! Here's the updated version with the additional release notes for App Version 1.2.0:
+
+## App Version 1.2.0 Release Notes:
+
+   **Security & User Experience Improvements:**
+   - **Enhanced Onboarding:** Easier username creation, profile picture upload, and role selection.
+   - **Better Security:** Encrypted APIs for safer data.
+   - **Maintenance Mode:** Clear notifications during maintenance.
+   - **Smoother Navigation:** Improved banner interaction and error messages.
+   - **Visual Tweaks:** Easier-to-see post likes and comment counts.
+   - **Comments & Replies:** Better visibility.
+   - **Store Interaction:** Clearer messages for store metrics.
+
 ## App Version 1.1.0 Release Notes:
 
 1. **Quick Access for Sellers:** Add posts and product additions right from the navigation bar.
@@ -25,13 +38,3 @@
 ## App Version 1.0.0 Release Notes:
 
 1. Introducing a compelling Market Network for Swadeshi products.
-
-
-
-
-
-
-
-
-
-
