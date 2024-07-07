@@ -1,6 +1,12 @@
+## App Version 1.2.2 Release Notes:
+
+1. **Google Authentication:** Easily sign in with Google for quicker access.
+2. **Like Visibility:** See who liked your posts and products.
+3. **Product Recommendations:** View product recommendations across different stores.
+
 ## App Version 1.2.0 Release Notes:
 
-   **Security & User Experience Improvements:**
+**Security & User Experience Improvements:**
 1. **Enhanced Onboarding:** Easier username creation, profile picture upload, and role selection.
 2. **Better Security:** Encrypted APIs for safer data.
 3. **Maintenance Mode:** Clear notifications during maintenance.
