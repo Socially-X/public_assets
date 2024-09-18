@@ -1,0 +1,50 @@
+{
+  "user_view": {
+    "derail_list": [
+      {
+        "title": "Get up to 100% discounts during product purchases with Infinity points"
+      },
+      {
+        "title": "Refer a friend and both earn ₹51 infinity points immediately"
+      },
+      {
+        "title": "Earn ₹200 Infinity points each when your friend opens a store within 10 days and completes verification!",
+        "sub_title": "Stores can use Infinity points to offset Swadesic’s ₹50 flat fee on purchases, and enjoy their first 10 orders free every month with Flash points."
+      }
+    ],
+    "additional_info": ""
+  },
+  "store_view": {
+    "detail_list": [
+      {
+        "title": "Swadesic adds ₹500 in Flash points on the first day of every month to support your small business in the Swadeshi Movement."
+      },
+      {
+        "title": "Flash points automatically save you ₹50 platform fee; Infinity points offset up to 80%."
+      },
+      {
+        "title": "Refer a friend and both win ₹51 Infinity points on joining as user and  ₹200 Infinity points each when your friend opens a store within 10 days and completes verification!",
+        "sub_title": "Your user Invite code is shared and points are added to your user reward balances only."
+      },
+      {
+        "title": "Get up to 100% discounts during product purchases with Infinity points as buyer"
+      }
+    ],
+    "additional_info": ""
+  },
+  "common_view": {
+    "detail_list": [
+      {
+        "title": "For every friend you bring, we plant a tree in your name. Contribute to a Greener Bharat."
+      },
+      {
+        "title": "Refer a friend and both earn ₹51 infinity points immediately which you can use for product purchases discounts"
+      },
+      {
+        "title": "Earn ₹200 Infinity points each when your friend opens a store within 10 days and completes verification!",
+        "sub_title": "Stores can use Infinity points to offset Swadesic’s ₹50 flat fee on purchases, and enjoy their first 10 orders free every month with Flash points."
+      }
+    ],
+    "additional_info": ""
+  }
+}
