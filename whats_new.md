@@ -1,3 +1,21 @@
+## App Version 1.3.0 Release Notes:
+
+🛍️ **For Consumers:**
+1. **Order Products Securely:** Easily order from your favorite stores and pay using Razorpay.
+2. **Product Feed:** View products from supported stores in your feed for a personalized shopping experience.
+3. **Rate Products:** Leave ratings in product comments to help others make informed decisions.
+4. **Referral Program:** Invite friends and stores to earn Infinity points up to ₹251 each, which you can use for your orders.
+5. **Refund Policies:** Enjoy clearer and more transparent refund policies.
+
+🏪 **For Stores:**
+1. **Nationwide Orders:** Receive orders across India as a business or state-wide as an individual.
+2. **Enhanced Mini Dashboard:** Track sales and metrics with an improved interface.
+3. **ID Verification:** Streamlined ID verification process for store owners.
+
+**General:**
+1. **Bug Fixes & Performance Enhancements:** Enjoy a smoother and more reliable app experience with various fixes and optimizations.
+
+
 ## App Version 1.2.2 Release Notes:
 
 1. **Google Authentication:** Easily sign in with Google for quicker access.
