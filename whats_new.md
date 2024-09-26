@@ -1,4 +1,4 @@
-## App Version 1.3.0 Release Notes:
+## App Version 1.3.0, 1.3.1 and 1.3.2 Release Notes:
 
 🛍️ **For Consumers:**
 1. **Order Products Securely:** Easily order from your favorite stores and pay using Razorpay.
