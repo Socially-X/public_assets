@@ -1,3 +1,7 @@
+## App Version 1.3.3 Release Notes:
+
+1. **Bug Fixe:** Resolved an issue with the delivery settings where the standard fee was not saving correctly.
+
 ## App Version 1.3.0, 1.3.1 and 1.3.2 Release Notes:
 
 🛍️ **For Consumers:**
