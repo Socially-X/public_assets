@@ -1,3 +1,20 @@
+## App Version 1.3.7 Release Notes:
+
+1. Made Mandatory improvements to product availability statuses.
+3. Bug fixes and improvements.
+
+## App Version 1.3.6 Release Notes:
+
+1. Improved error handling with custom messages for each product.
+
+## App Version 1.3.5 Release Notes:
+
+1. Improved error handling with custom messages for each product
+
+## App Version 1.3.4 Release Notes:
+
+1. Bug fixes and minor improvements.
+
 ## App Version 1.3.3 Release Notes:
 
 1. **Bug Fixe:** Resolved an issue with the delivery settings where the standard fee was not saving correctly.
