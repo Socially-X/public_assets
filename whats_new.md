@@ -1,4 +1,4 @@
-##App Version 1.4.0 Release Notes:##
+## App Version 1.4.0 Release Notes:
 
 1. Onboarding Redesign: Enjoy a fresh, improved sign-up and sign-in experience.
 2. Faster Sign-Up: Automatically fetch your profile picture when using Google sign-in for a quicker setup.
