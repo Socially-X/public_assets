@@ -1,11 +1,11 @@
 ## App Version 1.4.0 Release Notes:
 
-1. Onboarding Redesign: Enjoy a fresh, improved sign-up and sign-in experience.
-2. Faster Sign-Up: Automatically fetch your profile picture when using Google sign-in for a quicker setup.
-3. Enhanced Product UI: A cleaner, more intuitive interface for smoother browsing and better usability.
-4. Welcome Guide: New users are greeted with a guide to help them get started with Swadesic easily.
-5. Order Alerts: Stores now receive instant notifications as soon as they open the app, keeping them updated on orders.
-6. Simplified Withdrawals: Setting up your bank account is now easier, with automatic withdrawals enabled for balances over ₹500.
+1. **Onboarding Redesign: Enjoy a fresh, improved sign-up and sign-in experience.
+2. **Faster Sign-Up: Automatically fetch your profile picture when using Google sign-in for a quicker setup.
+3. **Enhanced Product UI: A cleaner, more intuitive interface for smoother browsing and better usability.
+4. **Welcome Guide: New users are greeted with a guide to help them get started with Swadesic easily.
+5. **Order Alerts: Stores now receive instant notifications as soon as they open the app, keeping them updated on orders.
+6. **Simplified Withdrawals: Setting up your bank account is now easier, with automatic withdrawals enabled for balances over ₹500.
 
 ## App Version 1.3.7 Release Notes:
 
