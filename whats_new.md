@@ -1,3 +1,10 @@
+## App Version 1.4.3 Release Notes:
+
+1. **Affiliate Program:** Earn a 20% lifetime revenue share for every store you refer to Swadesic! 🎉  
+2. **Premium Subscriptions:** Unlock exclusive services for buyers and stores with Swadesic Premium, plus enjoy a share in revenue.  
+3. **Real-time Messaging:** Connect effortlessly! Chat with users, stores, and the community in real-time.  
+
+🚀 Update now and elevate your Swadesic experience!
 ## App Version 1.4.0 Release Notes:
 
 1. **Onboarding Redesign:** Enjoy a fresh, improved sign-up and sign-in experience.
