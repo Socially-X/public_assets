@@ -1,3 +1,12 @@
+## App Version 1.4.7 Release Notes:
+
+1. **Repost Feature:** Amplify content for your favorite stores & people with ease!  
+2. **Save for Later:** Save posts and products to revisit anytime.  
+3. **Upgraded Messaging:** Faster, more secure chats with online status indicators.  
+4. **Optimized Feed:** Enjoy a smoother & engaging experience.  
+5. **Product Search:** Search products directly from the store page.  
+6. **Bug Fixes:** Sharing products, user profiles, and store profiles made easy.
+
 ## App Version 1.4.3 Release Notes:
 
 1. **Affiliate Program:** Earn a 20% lifetime revenue share for every store you refer to Swadesic! 🎉  
