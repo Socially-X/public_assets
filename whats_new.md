@@ -1,3 +1,7 @@
+## App Version 1.4.8 Release Notes:
+
+1. **Location update to unsigned user:** Now unsigned in user can update his pincode!
+
 ## App Version 1.4.7 Release Notes:
 
 1. **Repost Feature:** Amplify content for your favorite stores & people with ease!  
