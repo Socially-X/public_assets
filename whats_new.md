@@ -1,7 +1,7 @@
 ## App Version 2.0.5 Release Notes:
 
 
-### 💬 **Faster App Experience**
+### ⚡ **Faster App Experience**
 
 * Experience blazingly fast feed, search screens and app experience 
 
