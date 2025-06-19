@@ -1,3 +1,41 @@
+## App Version 2.0.5 Release Notes:
+
+
+### 💬 **Faster App Experience**
+
+* Experience blazingly fast feed, search screens and app experience 
+
+### 💬 **Better Messaging**
+
+* Real-time chat with emojis, file/image sharing, and link previews
+* Search chats, mark messages as read, and ask sellers questions easily
+
+### 🔁 **Easier Returns & Cancellations**
+
+* Clear return timelines, refund status, and package tracking
+* Smoother cancellation process with updated status info
+
+### 🏪 **Improved Profiles**
+
+* New Store Valuation, Support Score & Level Badges
+* Add cover images, share store via QR code, and manage warranties/returns
+
+### 🚚 **Smarter Shipping**
+
+* Track updates, manage balances, and download labels directly
+* Shiprocket integration for better delivery flow
+
+### 🔐 **Faster Login & Onboarding**
+
+* Easy email verification with OTP and improved Google sign-in
+
+### ⚡ **Cleaner Look & Smoother Performance**
+
+* Refreshed UI, better layouts, faster load times
+* Bug fixes for chat, feeds, and login
+
+---
+
 ## App Version 1.4.8 Release Notes:
 
 1. **Location update to unsigned user:** Now unsigned in user can update his pincode!
