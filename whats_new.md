@@ -1,3 +1,186 @@
+# 🚀 Release Notes: Version 2.4.4 (Build 77)
+
+## ✨ New Features & Enhancements
+* **Image Management:** Completed integration for **Post Image Object Storage**, improving performance and scalability (merged via PR #65).
+* **UI/UX:** Applied **Image Clamping** and fixed aspect ratios for product images, ensuring consistent display.
+
+## 🐛 Fixes & Improvements
+* Minor UI adjustments and improvements.
+* Fixed a null error that occurred on the **Preview screen**.
+* Resolved an issue where images were scrolling unintentionally upon post like updates.
+* Ensured the product completion checkmark (`isDoneVisible`) updates in real-time in the Add Products flow.
+
+---
+
+# 🚀 Release Notes: Version 2.4.3 (Build 76)
+
+## ✨ New Features & Enhancements
+* **Post/Product Interaction:** Fixed and enhanced the post and product **like animation** to work correctly even when liking by tapping on white spaces.
+
+---
+
+# 🚀 Release Notes: Version 2.4.2 (Build 75)
+
+## ✨ New Features & Enhancements
+* **Interactions:** Implemented an **animated like appearance** for products.
+* **Interactions:** Enabled **double-tap to like** functionality on posts.
+* **Image Display:** Made post and product images **flexible on width** to ensure full images are shown without cropping issues.
+
+## 🐛 Fixes & Improvements
+* Applied minor dark mode compatibility updates.
+
+---
+
+# 🚀 Release Notes: Version 2.4.1 (Build 74)
+
+## ✨ New Features & Enhancements
+* **Seller Product Flow (Major Overhaul):**
+    * **Modular Design:** Introduced a new modular design for **Add Products** with **Check Marks** to guide sellers based on field completion status.
+    * **Image Section:** The **Image Upload Screen** is now available in the Add Products flow.
+    * **Product Editing:** Refactored product text fields into a unified screen (`ProductTextFieldsScreen`) and introduced separate sections for **Basic Details** and other details for a clearer editing experience.
+    * **Navigation:** The bottom navigation bar is now automatically hidden when adding or editing a product.
+* **Image Management:** Implemented the new **Reorderable Add Images horizontal list** with delete functionality.
+* **UI/UX:** Updated the price card UI for products without variants.
+
+## 🐛 Fixes & Improvements
+* Resolved minor padding and alignment issues with the navigation profile icon.
+
+---
+
+# 🚀 Release Notes: Version 2.4.0 (Build 73)
+
+## ✨ New Features & Enhancements
+* **Image Management:**
+    * Implemented the full image management flow: added **reordering capability** for product images.
+    * Added a **preview UI** and **"Discard Changes" confirmation dialog** for image edits, allowing users to restore original images.
+    * Implemented deferred image reorder and upload with persistent state management for a safer save process.
+* **Seller Tools:** Added **confirmation dialogs** before saving default store settings (Delivery/Warranty).
+* **Notifications:** Introduced **automatic refresh for notifications** every 10 seconds.
+* **Discovery:** Added a **private discovery bottom sheet** to explain visibility and growth status to store owners.
+
+## 🐛 Fixes & Improvements
+* Fixed a bug where the **edit product image** would retain old images.
+* Resolved an issue where the **bottom navigation bar** was incorrectly visible on the preview screen.
+
+---
+
+# 🚀 Release Notes: Version 2.3.9 (Build 72)
+
+## ✨ New Features & Enhancements
+* **Product Details:** Added a **Variant List View Toggle** in the variant selection bottom sheet, offering users a new way to select product variants.
+* **Notifications:** Implemented logic to **automatically switch to the store account** before navigating to store-related notifications when the user is in buyer view.
+
+## 🐛 Fixes & Improvements
+* Refactored variant selection and price display logic for improved clarity and reliability.
+* Enhanced stock update flow with better error handling.
+* Improved navigation stability by adding context checks and fallback handling to reduce crashes on notification deep-links.
+
+---
+
+# 🚀 Release Notes: Version 2.3.8 (Build 71)
+
+## 🐛 Fixes & Improvements
+* Enhanced the **account context switching logic** (User $\rightleftharpoons$ Store) on notifications for a smoother transition.
+* Fixed an issue that prevented **swipe down to refresh** on the orders and notifications screens.
+
+---
+
+# 🚀 Release Notes: Version 2.3.7 (Build 70)
+
+## ✨ New Features & Enhancements
+* **UI/UX:** Switched scroll physics in all major lists (orders, notifications) to **BouncingScrollPhysics** for a smoother scrolling experience.
+* **Product Validation:** Added validation to ensure the **selling price is not zero** and does not exceed the MRP.
+
+## 🐛 Fixes & Improvements
+* Improved keyboard handling by ensuring the keyboard closes on gender selection and before navigating away from search screens.
+* Fixed various UI responsiveness issues.
+
+---
+
+# 🚀 Release Notes: Version 2.3.6 (Build 69)
+
+## ✨ New Features & Enhancements
+* **Seller FAQ:** Enhanced the **Store FAQ Screen** with detailed owner disclaimers and introduced a dedicated **Reordering Mode** UI.
+
+## 🐛 Fixes & Improvements
+* **UI/Style:** Major update to standardize text alignment, padding, and spacing across the application for a cleaner look.
+* **Navigation:** Improved **bottom navigation safe area handling** to prevent UI clipping on devices with screen notches.
+* Fixed the logic for **post save status** toggling.
+
+---
+
+# 🚀 Release Notes: Version 2.3.5 (Build 68)
+
+## ✨ New Features & Enhancements
+* **Messaging:** Added support for **`chat_owner_reference`** in the `ChatInfo` model, improving context for chat ownership.
+
+---
+
+# 🚀 Release Notes: Version 2.3.4 (Build 67)
+
+## ✨ New Features & Enhancements
+* **Seller Account:** The **expected amount** is now highlighted (bolded) in the "Total Amount to be Received" list.
+* **Buy Flow:** Implemented a new **Update Pin Code Dialog** in the Buy Button flow, allowing users to update their delivery postal code if delivery is unavailable.
+
+## 🐛 Fixes & Improvements
+* Refactored the single post view to show a custom "+" menu button for product comments.
+* Corrected the condition for bolding the expected amount in the total amount received widget.
+
+---
+
+# 🚀 Release Notes: Version 2.3.3 (Build 66)
+
+## ✨ New Features & Enhancements
+* **KYC:** Replaced the plain text field for PAN Date of Birth with a user-friendly, selectable **Calendar Widget**.
+* **Messaging:** Added detailed **timestamp formatting** and the **sender's name** to message bubbles.
+* **Onboarding:** On first-time store activation, the user is now automatically navigated to the **Share Store Screen** with a relevant toast message.
+* **Seller Accounts:** Store names on creation are now appended with `(Preview)`.
+
+## 🐛 Fixes & Improvements
+* Fixed an issue with in-app **messaging sharing**.
+* Removed unnecessary snack bar errors from the messaging screen.
+* Increased the chat preview text limit to 30 characters.
+
+---
+
+# 🚀 Release Notes: Version 2.3.2 (Build 65)
+
+## ✨ New Features & Enhancements
+* **Messaging:** Added **`chatOwnerReference`** to data models and components, making the chat header tappable to navigate to the respective store or user profile.
+* **App Config:** Integrated app help links via remote configuration.
+
+---
+
+# 🚀 Release Notes: Version 2.3.1 (Build 64)
+
+## 🐛 Fixes & Improvements
+* Fixed the **Content Navigation Issue** by ensuring tab context updates in Buyer and Seller navigation for correct deep link handling.
+* Removed the auto-withdraw option in "Send to Bank."
+
+---
+
+# 🚀 Release Notes: Version 2.3.0 (Build 63)
+
+## ✨ New Features & Enhancements
+* **KYC:** Completed the **PAN date of birth integration** using the new calendar widget.
+* **UI:** Implemented Dark mode updates (intermediary).
+
+## 🐛 Fixes & Improvements
+* **Inventory:** Added **validation for pricing inputs** (MRP/Selling Price) before saving the product.
+* **UI/Style:** Standardized button sizes and text overflow handling across store UI to prevent text clipping.
+* Fixed an issue while editing inventory options of a product.
+
+---
+
+# 🚀 Release Notes: Version 2.2.9 / 2.2.8 (Build 62 / 61)
+
+## 🐛 Fixes & Improvements
+* **Navigation:** Refactored navigation logic to open linked content (Post, Product, Store) **directly in the current tab** for immediate visibility, eliminating unnecessary tab switching.
+* Made the **clear cache messaging button** appear only in the dev environment for safer production use.
+* Fixed color contrast for toast messages.
+
+---
+
 ## App Version 2.2.4 Release Notes:
 
 ### 🐞 **Bug Fixes & Performance Improvements**
