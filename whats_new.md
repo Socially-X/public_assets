@@ -1,3 +1,427 @@
+# 🚀 Release Notes: Version 3.1.3 (Build 106) 
+
+## ✨ New Features & Enhancements
+* **Onboarding:** First sign-in auto-fills your name and username from your account info.
+* **Onboarding:** Username step skips re-validation when the pre-filled value is unchanged — no more false "unavailable" errors.
+* **UI/UX:** Store Products title styling matched to Notifications; removed double top-spacing in feed detail views.
+* **Places:** Sub-tab position fix.
+
+## 🐛 Fixes & Improvements
+* Can't go back to the OTP screen from post-verification onboarding — first back-press shows "Tap again to exit," second exits.
+* Fixed "Cannot open chat: Invalid contact ID" for never-chatted contacts; recommendations no longer list contacts that can't receive chats.
+
+---
+
+# 🚀 Release Notes: Version 3.1.2 (Build 105)
+
+*Play Store: Store Wallet is now Store Rewards. Glass headers scroll cleanly with no gaps, tagged posts load faster, and Invite & Help is one tap away.*
+
+## ✨ New Features & Enhancements
+* **Store Rewards:** Store Wallet → Store Rewards across buyer and store UI (My Store Rewards, Reward Balance, Store Reward Balance); Instant Order Links and Log Offline Orders added to store quick access.
+* **Invite & Help:** Tapping the Swadesic icon on buyer home now opens the same Invite & Help page as seller home.
+* **Performance:** Tagged-post photos now use presigned URLs (faster, no stale images).
+
+## 🐛 Fixes & Improvements
+* Glass-header scroll: removed invisible static headers behind the glass that caused gaps; profile/store/product grids now thread headers inside the scroll view so content slides correctly under the glass.
+* Profile-tab back navigation animates back to the profile sub-tab before exiting.
+
+---
+
+# 🚀 Release Notes: Version 3.1.1 (Build 104)
+
+*Play Store: Smoother feeds with pull-to-refresh, more reliable tag and mention taps, and faster, steadier cart totals.*
+
+## ✨ New Features & Enhancements
+* **Feeds:** Pull-to-refresh, smoother bounce scrolling, more reliable endless-scroll pagination.
+* **Tags & Mentions:** Tapping store / product / user tags and mentions now resolves consistently.
+* **Cart:** Faster cart totals and delivery-fee calculation (batched backend fetch).
+
+## 🐛 Fixes & Improvements
+* Comment box now reliably visible on post views; fixed spacing.
+* Post views no longer show the stray bottom nav grid.
+
+---
+
+# 🚀 Release Notes: Version 3.1.0 (Build 103)
+
+*Play Store: Fresh new look with liquid-glass navigation across home, search, cart and profile. Faster photos and checkout, shareable posts and FAQ links, and verified badges across the app.*
+
+## ✨ New Features & Enhancements
+* **Liquid-glass navigation:** New glass look across buyer home, seller home, search, notifications, messaging, cart, profile and store views — auto-hiding glass header, slide-away bottom bar.
+* **Posts:** Dedicated post / comment / thread screen with shareable links.
+* **FAQs:** Shareable FAQ links — auto-expands the right category/question, supports store-handle links.
+* **Instant Cart:** Preview with real totals, deep-link support and fixed bottom-nav overlap.
+* **Reviews:** External reviews on stores, with corrected review-request checks.
+* **Performance:** Faster photos via stable cache keys, explore-icon prefetch and thumbnails; shimmer skeletons instead of spinners.
+* **Cart & Checkout:** Faster cart / checkout / orders (batched backend fetches, leaner payloads).
+* **Navigation:** Back stays inside the active tab, double-tap a tab to refresh, unread badges for messages/cart/notifications, quicker account switching.
+* **Search:** Header search, history panel, Top Stores compact grid, `@handle` as first profile tab.
+* **Seller Home:** Collapsible metrics, quick-access grid, support-score widget, repositioned onboarding checklist (Manual order → External order).
+
+## 🐛 Fixes & Improvements
+* Fixed seller-home header gap/content overlap, chrome insets and sub-tab positions.
+* Fixed WhatsApp share text breaking FAQ question links; fixed store-chart tap and FAQ category limits.
+* Guests tapping Notifications / Messages / Cart / Add-post / Profile are now sent to login.
+* Cleaner offline handling with simpler no-internet screen.
+
+---
+
+# 🚀 Release Notes: Version 3.0.21 (Build 102)
+
+*Play Store: Faster checkout with a new consolidated cart, revamped Subscriptions with plans and add-ons, and a cleaner Reviews experience with dedicated review cards. Plus smarter store analytics and shipping reliability fixes.*
+
+## ✨ New Features & Enhancements
+* **Cart:** Consolidated cart API + UI (fixes infinite price-section loading).
+* **Subscriptions:** Revamp with plan management + add-on/passes tabs, user-plan screen and upgrade flow.
+* **Reviews:** Review Cards feed renderer; legacy golden star removed; pending-reviews sorting.
+* **Navigation:** Bottom nav auto-hides on settings sub-screens.
+* **Analytics:** Store analytics with order counts + order/revenue metrics; analytics screen + home-section redirections.
+
+## 🐛 Fixes & Improvements
+* Story-from-pending-reviews wrongly marking products reviewed; pending-reviews screen issues; comment card + review bottom sheet fixes.
+* Shipping label generate/download; Shiprocket webhook; shipping-history title fixes.
+* Datetime conversion fix; onboarding checklist art hidden once complete.
+
+---
+
+# 🚀 Release Notes: Version 3.0.20 (Build 101)
+
+*Play Store: All-new seller Home tab with order dashboard, Unanswered Questions inbox, and active orders front-and-center in your profile. Plus a unified fullscreen video player and premium-store visibility boost in search.*
+
+## ✨ New Features & Enhancements
+* **Seller Home:** All-new Home tab with live data, dashboard cards, wallet config, checklist and access grid.
+* **Orders:** Order-status grid with all statuses and tap-to-filter orders.
+* **Inbox:** Unanswered Questions inbox; Active / in-progress orders section in your own profile.
+* **Inventory:** Manage Orderable Products section with bulk updates.
+* **Discovery:** Premium-store visibility boost in search/feed.
+* **Video:** Fullscreen player overhaul with shared player page, unified controls, seek bar and consistent back arrow.
+* **Wallet:** Buyer-wallet UI refresh; buyer view-store products match preview style; fresher images/video via media-URL service migration.
+
+## 🐛 Fixes & Improvements
+* Store category showing "null" in search results; profile tab navigation fixes.
+* Post-edit deleting images on remove; bottom-nav white flash on cold start in dark mode.
+
+---
+
+# 🚀 Release Notes: Version 3.0.19 (Build 100)
+
+*Play Store: Introducing Store Wallets — balances, supporter benefits, and wallet savings at checkout. Orders now show exactly what you paid with full discount breakups. Plus verified badges, faster image/video loading, and messaging fixes.*
+
+## ✨ New Features & Enhancements
+* **Store Wallets:** New wallet system UI with tabs, metrics, supporter-detail screen, transactions with sticky filters and reward/config sheets.
+* **Orders:** Stored discounts + amount-paid column; wallet/supporter breakups in buyer/seller totals.
+* **Trust:** Verified badge on followers/supporters.
+* **Collections:** Product lists match instant-cart UI.
+* **Performance:** Faster loading with fresh-on-demand image/video URLs everywhere and a unified media-URL service (fewer stale images).
+* **Messaging:** Chat list sorted by last message on the backend (faster open).
+
+## 🐛 Fixes & Improvements
+* Wallet redemption not applied to order; amount-paid calculation; refund-breakup crash fixes.
+* Messaging icon missing after returning from user profile; delivery-fee null-check; review stars in user review list.
+
+---
+
+# 🚀 Release Notes: Version 3.0.18 (Build 99)
+
+*Play Store: Stability and version housekeeping only — no visible changes in this release.*
+
+## ✨ New Features & Enhancements
+* No user-facing changes in this release (version housekeeping only).
+
+## 🐛 Fixes & Improvements
+* No user-facing changes in this release (version housekeeping only).
+
+---
+
+# 🚀 Release Notes: Version 3.0.17 (Build 98)
+
+*Play Store: Rate your order right from the delivered-orders page, plus easier-to-read post text and smoother loading across cart, support, and verification. Fixes for chat search and repost buttons.*
+
+## ✨ New Features & Enhancements
+* **Reviews:** Leave a review for an order directly inside the order page.
+* **Posts:** Larger text while composing and in comments.
+* **Loading states:** Inline loading in Support recommendations, cart reset and verification Submit.
+
+## 🐛 Fixes & Improvements
+* Product-detail repost button updates instantly on tap.
+* Own account no longer appears in chat search.
+
+---
+
+# 🚀 Release Notes: Version 3.0.16 (Build 97)
+
+*Play Store: New Cart tab in bottom navigation, smarter share links with store referrals, and community/supporter pricing across store and product grids. Plus faster product videos and lots of cart, order, and navigation fixes.*
+*Note: monorepo migration — Frontend imported into `frontend/flutter/` and backend into `backend/swadesic-main/` on 2026-05-19, between 3.0.15 and 3.0.16.*
+
+## ✨ New Features & Enhancements
+* **Cart:** Now a bottom-navigation tab.
+* **Sharing:** Store share links with referral prefix; community pricing + supporter-price sheets; supporter price shown in product grid for followers.
+* **Stores:** Preview-store create/edit flows; plan-based limits in Add Inventory; plan selection bottom sheet.
+* **Verification:** Email OTP verification when adding a bank account; phone-number step on first store creation.
+* **Product Detail:** Full Card with video-engine integration and preloading.
+* **Analytics:** Store analytics graph UI; bottom-nav auto-hide in product lists and profile/store screens.
+* **Reviews:** External review-request page UI refresh; supporter count on profile updates live.
+
+## 🐛 Fixes & Improvements
+* Find Your Friends screen; Places Stores tab; messaging search fixes.
+* Cart-tab back-button white screen; cart respects available stock.
+* Order share-link error handling; FAQ screen; calendar in Shipping-in-Progress; save/repost icons.
+
+---
+
+# 🚀 Release Notes: Version 3.0.15 (Build 96)
+
+*Play Store: Big seller update — new Store Control center explains every store feature and shows Free/Premium needs, live plan buying with in-app payment, and supporter pricing on products. Shoppers get a new Competitions section with leaderboards, faster photo swiping, better instant-order links, map-based pickup locations, and smoother video and chat fixes.*
+
+## ✨ New Features & Enhancements
+* **Store Control:** Central feature management with ON/OFF + Coming Soon + Needs Premium badges and tap-to-open detail sheets.
+* **Plans:** Live plan buying with Free / Premium / Premium+ selector, real slot availability, in-app payment and celebration screen after payment.
+* **Pricing:** Supporter-only price sellers can set; buyers see it on product and cart.
+* **Instant Order Links:** Overhaul with collapsible hero, compact cards, search, custom link names, previous-links history and per-plan limits.
+* **Competitions:** New tab in Explore + profiles with live leaderboard tiers.
+* **Pickup:** Locations with map preview; plan/limit guardrails (daily post limits, FAQ limits).
+* **Photos:** Zero-delay swipe + preloading with position preserved during scroll — fixes white flash.
+* **Video:** Feedback videos now play in-app; add-post/add-product previews open fullscreen on tap.
+
+## 🐛 Fixes & Improvements
+* Nav bar staying hidden after returning from add/edit product.
+* Video sending failure + wrong thumbnail; web product video playback; profile Supported Stores list; manual-order and instant-cart bugs.
+
+---
+
+# 🚀 Release Notes: Version 3.0.14 (Build 95)
+
+*Play Store: Small stability hotfix for chats and post/product headers. No more repeated "Failed to load contacts" popups, plus a tidier title bar.*
+
+## ✨ New Features & Enhancements
+* No new features — stability hotfix.
+
+## 🐛 Fixes & Improvements
+* Messaging home: silenced noisy "Failed to load contacts" popup.
+* Post/product app bar: tightened title padding to stop jitter/clipping.
+
+---
+
+# 🚀 Release Notes: Version 3.0.13 (Build 94)
+
+*Play Store: Smoother full-screen scrolling — the auto-hide navigation from 3.0.11 is now faster, less jumpy, and no longer flickers. Also fixes sideways photo swiping on products and posts.*
+
+## ✨ New Features & Enhancements
+* **Scrolling:** Dual-stream scroll approach to kill jank with improved responsiveness (polish for the 3.0.11 auto-hide feature).
+
+## 🐛 Fixes & Improvements
+* Nav bar reappearing unexpectedly on scroll pause; nav hiding during scroll bounce/overscroll.
+* Product media horizontal swipe broken when auto-hide was active.
+
+---
+
+# 🚀 Release Notes: Version 3.0.12 (Build 93)
+
+*Play Store: New Wave qualification section on stores shows your progress, benefits, and multi-wave support. New celebration screen when you create an instant store, plus fixes for review stars, messaging, and store pages.*
+
+## ✨ New Features & Enhancements
+* **Stores:** Wave qualification section with progress, benefits and multi-wave support.
+* **Stores:** Celebration screen for instant store creation.
+* **Performance:** Store data fetching optimized; account-section spacing cleaned up.
+
+## 🐛 Fixes & Improvements
+* Review star icon showing unfilled/incorrect state; messaging home screen issues.
+
+---
+
+# 🚀 Release Notes: Version 3.0.11 (Build 92)
+
+*Play Store: More room for your feed — the top bar and tabs now auto-hide as you scroll for a full-screen browsing experience. Places now shows activity posts in the Posts tab, and signing in takes you straight to your profile.*
+*Note: prod-push message says "version 32" — typo; binaries are `3.0.11+92`.*
+
+## ✨ New Features & Enhancements
+* **Navigation:** Auto-hide app bar + tab bar that hide on scroll down and return on scroll up, on buyer and seller home.
+* **Places:** Posts tab now includes activity posts.
+
+## 🐛 Fixes & Improvements
+* Login with OTP now redirects to the user profile tab after sign-in.
+* Auto-hide race during buyer/seller view switch.
+
+---
+
+# 🚀 Release Notes: Version 3.0.10 (Build 91)
+
+*Play Store: Smoother everyday use in a bold new black theme. Chats switch tabs cleanly, order lists no longer flicker, notifications land on the right tab instantly, and Places activity now pages correctly.*
+
+## ✨ New Features & Enhancements
+* **Theme:** New black app theme; FAQ answers now cached for instant reopen.
+* **Messaging & Notifications:** Refreshed messaging screen; unread-notification card + notification-to-tab routing; store cards in Places and category cards restyled.
+
+## 🐛 Fixes & Improvements
+* Chat tab-switch bug; "No Orders Yet" flicker in seller orders; notification-open delay; support score not refreshing on pull-to-refresh.
+
+---
+
+# 🚀 Release Notes: Version 3.0.9 (Build 90)
+
+*Play Store: Find things faster with browsable Categories and smarter search, plus dedicated Chat tabs for buyers and sellers with unread badges. Notifications group unread chats, commenting feels snappier, and builds are now smaller to download.*
+
+## ✨ New Features & Enhancements
+* **Categories:** Full category view with search for stores + products and category rails in search start-state.
+* **Chat:** Own bottom-nav tab for buyers and sellers with badges; unread-messages card in Notifications.
+* **Search:** Tab views refreshed; notification UI refreshed; comment composer hides bottom nav; smaller downloads.
+
+## 🐛 Fixes & Improvements
+* Guest chat init fixes; bottom-nav redirect after store creation; tab-bar issues in profiles + messaging; review-video aspect ratio.
+
+---
+
+# 🚀 Release Notes: Version 3.0.8 (Build 89)
+
+*Play Store: Under-the-hood trust update. ID verification is now faster and clearer with dedicated flows, sharing a store sends a cleaner message, and test accounts can no longer follow or support by mistake.*
+
+## ✨ New Features & Enhancements
+* **Verification:** Refactored store ID-verification flow (separate flows, improved UX).
+* **Sharing:** Improved store-share text; app-share messages now updatable without an app release.
+
+## 🐛 Fixes & Improvements
+* Test stores blocked from following / supporting users or stores.
+
+---
+
+# 🚀 Release Notes: Version 3.0.7 (Build 88)
+
+*Play Store: Cleaner trust and discovery. The Trust Center and ID verification get a fresh look with Aadhaar support, post headers show comments at a glance, and "View more" behaves consistently everywhere.*
+
+## ✨ New Features & Enhancements
+* **Trust Center:** Redesign; ID-verification redesign with new Aadhaar section; post cards get a header view with comments.
+* **Discovery:** Store-search UI pass; unified "view more" logic for horizontal lists.
+
+## 🐛 Fixes & Improvements
+* Horizontal-to-vertical list navigation fixed in store and user-profile screens.
+
+---
+
+# 🚀 Release Notes: Version 3.0.6 (Build 87)
+
+*Play Store: New step-by-step store setup checklist makes opening a store foolproof — logo, description, contact, location, places, ID and share-link all in one place with live refresh. Places and store search also get lively horizontal rails you can tap through.*
+
+## ✨ New Features & Enhancements
+* **Onboarding:** Store setup checklist with mandatory / optional items and bottom-sheets for logo, description, contact, location, places, ID verification and share-link; simplified create-store flow.
+* **Discovery:** Horizontal product / post rails in Places and store search with correct Follow status; chat-media thumbnails; trust-center and product-details refresh.
+
+## 🐛 Fixes & Improvements
+* Null-crash switching to store profile; checklist-card height mismatch; Supported-stores section; edit-product keeps video ID when unchanged.
+
+---
+
+# 🚀 Release Notes: Version 3.0.5 (Build 86)
+
+*Play Store: Small but visible — photo and video carousels are easier to browse with on-screen arrows and smoother swipes, and help-desk chats now support photo attachments reliably.*
+
+## ✨ New Features & Enhancements
+* **Support:** Tickets can now attach photos.
+* **Media:** Carousel arrows on post / product views, fade-animation image swiping, video thumbnails in product grids.
+
+## 🐛 Fixes & Improvements
+* Request-verification issue fixed.
+
+---
+
+# 🚀 Release Notes: Version 3.0.4 (Build 85)
+
+*Play Store: Easier trust-building for sellers and clearer info for shoppers. New ID-verification document upload, photo uploads for store FAQs, tap-for-details explainers on sales, orders and returns, plus more reliable Instant-Cart link sharing.*
+
+## ✨ New Features & Enhancements
+* **Instant Cart:** New link creation + redirect flow; more reliable link sharing.
+* **Verification:** ID verification document-upload flow; store FAQ media upload.
+* **Stores:** Info bottom-sheets explaining Sales, Orders, Reviews and Returns.
+* **UI/UX:** Store access options reordered; order / sale / review info text restyled; transactions UI refreshed.
+
+## 🐛 Fixes & Improvements
+* Video flicker entering / exiting fullscreen fixed; edit-product / product-details and preview-store creation bugs fixed.
+
+---
+
+# 🚀 Release Notes: Version 3.0.3 (Build 84)
+
+*Play Store: Makes Instant Cart and store review links just work — including for new users and when switching between buyer and seller accounts. Videos also stop cleanly when you leave the app, and Places scrolls sideways smoothly.*
+
+## ✨ New Features & Enhancements
+* **Reviews:** External store-review links now validate and switch accounts correctly; seller → buyer handoff for Instant Cart completed.
+* **Places:** Horizontally scrollable strip; Instant-Cart signup flow and quantity handling improved.
+
+## 🐛 Fixes & Improvements
+* Feed videos no longer keep playing in the background.
+
+---
+
+# 🚀 Release Notes: Version 3.0.2 (Build 82)
+
+*Play Store: Fixes buying and chatting. The Buy / Buy-at-Store button now behaves correctly and shows pickup options when delivery isn't available, and the chat screen types and opens emoji without losing focus.*
+
+## ✨ New Features & Enhancements
+* **Reviews:** Store reviews page shows store icon, name and handle; "Buy Now" shows pickup options when buy is disabled.
+* **UI/UX:** Refreshed manual-order, support and post-card icons; stale Buy-Now state refreshes correctly.
+
+## 🐛 Fixes & Improvements
+* Buy button not responding — fixed; app now jumps straight to Login on session expiry instead of getting stuck; chat auto-capitalization and emoji/keyboard focus fixed.
+
+---
+
+# 🚀 Release Notes: Version 3.0.1 (Build 82)
+
+*Play Store: Quick polish right after the big 3.0 launch. Sharper store details, smoother photo permissions on Android, and final cleanup of old branding across the app.*
+
+## ✨ New Features & Enhancements
+* **UI/UX:** Refreshed store-details UI; Android photo permission flow added.
+
+## 🐛 Fixes & Improvements
+* Removed all remaining old branding wording for consistent Swadesic branding.
+
+---
+
+# 🚀 Release Notes: Version 3.0.0 (Build 81)
+
+*Play Store: Biggest update yet — brand-new store and profile designs, faster video-first feeds everywhere, a new Places way to discover stores near you, plus Instant Cart and Manual Orders that let any store sell in seconds. Uploads now finish in the background while you keep browsing.*
+
+## ✨ New Features & Enhancements
+* **Stores & Profiles:** New buyer store view, seller dashboard and user profile redesign.
+* **Selling:** Instant Cart + Manual Orders with shareable cart links, variant picker, add-external-product flow, deep-link to manual order and seller Manual/App order filters.
+* **Discovery:** New Places tab with place chips, cluster feeds, visited stores, manage / reorder places and location-based pickup.
+* **Reviews:** Review Pages with create flow, owner vs visitor views, review videos and pending-reviews entry.
+* **Products:** Origin & Transparency section on product details.
+* **Feeds:** New Feed Engine everywhere — paginated, keeps position on tab switch, smooth autoplay.
+* **Video:** New engine with instant play, prefetch + thumbnail caching, background upload and no-restart fixes.
+* **UI/UX:** Skeleton loaders replace spinners; frosted bottom nav; 4:5 post media.
+
+## 🐛 Fixes & Improvements
+* Orders: status chips with counts, refund breakup for buyer + seller, pincode dialog and shipping toggle fixes.
+* Notification tap opens the right screen on cold + warm start.
+
+---
+
+# 🚀 Release Notes: Version 2.4.6 (Build 79)
+
+*Play Store: A fresh new look for our story — clearer onboarding, simpler invites, and shopping that feels direct, safe, and human. We've refreshed wording across welcome, roles, and referrals to focus on buying direct from real stores.*
+
+## ✨ New Features & Enhancements
+* **Onboarding:** Rewritten welcome story with intro slides about Direct-from-Store shopping; rewritten "What is Swadesic" and role-choice screens; rewritten Invite/Referral page with buyer and store benefits.
+* **UI/UX:** New mission artwork; clearer labels across invites, fulfillment settings and report reasons; simplified share prompt.
+
+## 🐛 Fixes & Improvements
+* Settings no longer shows an empty phone/email row; removed outdated link on login support row.
+
+---
+
+# 🚀 Release Notes: Version 2.4.5 (Build 78)
+
+*Play Store: Faster, more reliable photos across shopping and community. Product, post, and comment images now load from new storage for fewer broken images.*
+
+## ✨ New Features & Enhancements
+* **Image Management:** Product, post, and comment images load via object storage with updated upload flow and fallbacks.
+* **UI/UX:** User and store icons use unified image-URL handling.
+
+## 🐛 Fixes & Improvements
+* No user-facing fixes — image reliability release (only 6 commits since 2.4.4).
+
+---
+
 # 🚀 Release Notes: Version 2.4.4 (Build 77)
 
 ## ✨ New Features & Enhancements
