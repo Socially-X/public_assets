@@ -1,3 +1,89 @@
+# 🚀 Release Notes: Version 3.1.7 (Build 110)
+
+## ✨ New Features & Enhancements
+* **Live Events:** Products revealed on the seller dashboard now appear instantly on buyer event pages — no manual refresh needed.
+* **Store Settings:** Now accessible directly from the store home access list.
+* **Copy:** "Store wallet" renamed to "store rewards" across product details.
+* **UI/UX:** Design system typography and colour tokens applied across buyer event detail and seller live event dashboard screens.
+
+## 🐛 Fixes & Improvements
+* Fixed Trust Center crash for stores without a completed verification node — now shows a clear "available once store setup is completed" message instead of a generic retry.
+* Fixed delivery person name and phone being lost when switching to Logistics Partner Delivery, along with the phantom "Enter delivery person name and phone number" error on save.
+* Fixed seller home showing the previous store's name, avatar and share card after switching stores.
+* Fixed chat scroll jumping when opening a conversation.
+* Fixed duplicate cards appearing in the activity feed, and pagination drifting between pages.
+* Add Product fulfilment and return settings checkmarks now refresh immediately after saving.
+* Restored account balance and order details widgets on seller order screens.
+* Removed a duplicate save API call in the store-default delivery disclaimer flow.
+
+---
+
+# 🚀 Release Notes: Version 3.1.6 (Build 109)
+
+## ✨ New Features & Enhancements
+* **Live Events:** New Live Events tile in the seller Quick Access grid.
+* **Live Events:** Seller live dashboard with status header, metrics bar, and live control cards.
+* **Live Events:** Create and edit events — schedule or start now, add products with variant selection and rich product cards.
+* **Live Events:** Optional "Make all products visible immediately" toggle when creating an event (default off, applies to both Start Now and Schedule).
+* **Live Events:** Product reveal workflow — products start hidden in a strip with Reveal and remove actions; the revealed list sits below. Tapping a "Revealed" indicator hides it again.
+* **Live Events:** Add and remove products while an event is LIVE.
+* **Live Events:** Live stream support for YouTube, Facebook and Instagram.
+* **Live Events:** Live viewer count ("watching") for sellers and buyers.
+* **Live Events:** New dedicated buyer event detail screen with Go to Cart and add-to-cart from event product cards.
+* **Live Events:** Share event links — tapping a shared link opens the event directly in the app.
+* **Notifications:** Notification preferences — choose what you want to be notified about.
+* **Store:** Store activation celebration screen with store icon, name, handle animation and a share button.
+* **Store:** New seller store profile screen and store details screen.
+* **Seller Home:** Pull-to-refresh refreshes dashboard, store info, user detail, store list and rewards config together.
+* **Rewards:** Empty-state placeholders for the supporters and transactions tabs.
+* **UI/UX:** Live event screens modernised to match the design system.
+
+## 🐛 Fixes & Improvements
+* Fixed products added to a live event auto-revealing — they now respect the reveal step.
+* Fixed product picker failing for products without a base variant reference; variant reference is now always sent correctly.
+* Fixed owner-only product actions appearing for non-owners.
+* Fixed product tile brand name, feed grid scrolling, and search screen state keep-alive.
+* Store icon now refreshes after completing an onboarding checklist item.
+* Rewards configuration no longer requires store activation.
+* Renamed "Log External Orders" to "Add External Orders" and "Store Rewards" to "Store Loyalty Rewards".
+* Send to bank is now guarded when the balance is zero.
+* Fixed an infinite reload loop when switching tabs on the seller events screen.
+* Fixed event date formatting across buyer and seller screens.
+
+---
+
+# 🚀 Release Notes: Version 3.1.5 (Build 108)
+
+## ✨ New Features & Enhancements
+* **Store:** New seller store profile screen and store details screen.
+* **Seller Home:** Pull-to-refresh on seller home — refreshes dashboard, store info, user detail, store list and rewards config in parallel.
+* **Navigation:** New ChromeShell navigation widget.
+* **UI/UX:** Glass Chrome typography gains consistent font size, letter spacing and line height for header and tab rows.
+
+## 🐛 Fixes & Improvements
+* Store icon now refreshes in the header and nav row after completing an onboarding checklist item.
+* Rewards configuration no longer requires store activation.
+* Renamed "Log Offline Orders" to "Add External Orders" and "Store Rewards" to "Store Loyalty Rewards".
+* Send to bank is now guarded when the balance is zero.
+* Fixed account balance screen padding and empty bank account alignment.
+* Fixed search screen category list padding.
+
+---
+
+# 🚀 Release Notes: Version 3.1.4 (Build 107)
+
+## ✨ New Features & Enhancements
+* **Store Search:** Filter chips now scroll with the feed content instead of staying pinned.
+* **Store Search:** Products and Posts full-view screens use the auto-hiding glass header on scroll, matching the rest of the app.
+
+## 🐛 Fixes & Improvements
+* Fixed product info staying pinned at the top of the comments section — it now scrolls away with the list.
+* Fixed a white band appearing under the glass header on single-post, post-header and feed-detail views.
+* Fixed mention and link markup rendering as raw text in post cards — mentions and URLs now display as parsed handles.
+* Fixed feed detail page titles rendering inconsistently in the glass header.
+
+---
+
 # 🚀 Release Notes: Version 3.1.3 (Build 106) 
 
 ## ✨ New Features & Enhancements
